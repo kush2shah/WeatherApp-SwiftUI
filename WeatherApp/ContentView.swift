@@ -20,7 +20,7 @@ struct ContentView: View {
                 .padding(.bottom, 20)
                 HStack{
                     DailyView(dayOfWeek: "TUE",
-                              conditions: "snowflake",
+                              conditions: "cloud.sun.fill",
                               temperature: 2)
                     DailyView(dayOfWeek: "WED",
                               conditions: "tornado",
